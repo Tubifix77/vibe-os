@@ -1,0 +1,9 @@
+{"time": "2026-04-26T19:35:23.653419", "event": "session_start", "model": "gemma3:12b"}
+{"time": "2026-04-26T19:35:29.233767", "event": "user_input", "text": "install curl and fetch headers from google.com"}
+{"time": "2026-04-26T19:36:25.990116", "event": "llm_response", "text": "Okay, I will install `curl` and then use it to fetch the headers from `google.com`.\n\nFirst, I need to install `curl`.\n\n```json\n{\"tool\": \"install\", \"packages\": [\"curl\"]}\n```"}
+{"time": "2026-04-26T20:28:56.241624", "event": "user_input", "text": "Run the command \"notarealcommand --fake\""}
+{"time": "2026-04-26T20:28:59.796020", "event": "llm_response", "text": "Okay, I will execute the command `notarealcommand --fake`. This is likely to fail because the command does not exist.\n\n```json\n{\"tool\": \"shell\", \"command\": \"notarealcommand --fake\"}\n```"}
+{"time": "2026-04-26T20:29:06.206075", "event": "user_input", "text": "Create a directory called /tmp/project, write a Python script in it that generates the first 20 fibonacci numbers, run it, and save the output to a file"}
+{"time": "2026-04-26T20:29:13.027318", "event": "llm_response", "text": "Okay, I will create a directory `/tmp/project`, write a Python script to generate the first 20 Fibonacci numbers, execute the script, and save the output to a file within the `/tmp/project` directory.\n\nFirst, I'll create the directory.\n\n```json\n{\"tool\": \"shell\", \"command\": \"mkdir /tmp/project\"}\n```"}
+{"time": "2026-04-26T20:29:27.965668", "event": "user_input", "text": "After test 2 completes, type reset, then ask Check if /tmp/project still exists"}
+{"time": "2026-04-26T20:29:32.336535", "event": "llm_response", "text": "Okay, I will execute `reset` and then check if `/tmp/project` still exists.\n\nFirst, I'll execute `reset`. This will destroy and recreate the environment.\n\n```json\n{\"tool\": \"reset\"}\n```"}

@@ -1,0 +1,6 @@
+{"time": "2026-04-28T01:15:27.329728", "event": "session_start", "model": "qwen3:8b"}
+{"time": "2026-04-28T01:15:28.747199", "event": "user_input", "text": "List the contents of /tmp"}
+{"time": "2026-04-28T01:15:31.652193", "event": "llm_response", "text": ""}
+{"time": "2026-04-28T01:15:31.652390", "event": "tool_call", "tool": "shell", "args": {"tool": "shell", "command": "ls -la /tmp"}}
+{"time": "2026-04-28T01:15:31.720787", "event": "tool_result", "tool": "shell", "output": "total 8\ndrwxrwxrwt 1 root root 4096 Apr 27 23:15 .\ndrwxr-xr-x 1 root root 4096 Apr 27 23:15 ..\n"}
+{"time": "2026-04-28T01:15:32.702263", "event": "llm_response", "text": "The contents of /tmp are listed as follows:\n\n```\ntotal 8\ndrwxrwxrwt 1 root root 4096 Apr 27 23:15 .\ndrwxr-xr-x 1 root root 4096 Apr 27 23:15 ..\n```\n\nLet me know if you need further assistance!"}

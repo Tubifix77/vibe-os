@@ -1,0 +1,3 @@
+{"time": "2026-04-28T00:57:35.481489", "event": "session_start", "model": "qwen3:8b"}
+{"time": "2026-04-28T00:57:37.074431", "event": "user_input", "text": "Download the Python homepage to /tmp/python.html and tell me how big the file is"}
+{"time": "2026-04-28T00:57:37.821683", "event": "llm_response", "text": ""}
